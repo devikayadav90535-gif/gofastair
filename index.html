@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Go Fast Air — National courier service, air logistics, domestic and international courier, air cargo and surface cargo.">
+  <meta name="theme-color" content="#0b4ea2">
+  <title>Go Fast Air | Courier & Air Logistics</title>
+  <link rel="icon" href="assets/gofastair-logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>National Courier Service & Air Logistics</span>
+      <div class="top-links">
+        <a href="mailto:cs@gofastair.com">✉ cs@gofastair.com</a>
+        <a href="tel:+919919666533">☎ +91 99196 66533</a>
+      </div>
+    </div>
+  </div>
+  <nav class="nav container">
+    <a class="brand" href="#top" aria-label="Go Fast Air home">
+      <img src="assets/gofastair-logo.jpg" alt="Go Fast Air logo">
+      <span><strong>GO FAST AIR</strong><small>Courier & Air Logistics</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <div class="nav-menu">
+      <a href="#services">Services</a>
+      <a href="#tracking">Track</a>
+      <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#quote">Get a Quote</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-grid container">
+    <div class="hero-copy">
+      <div class="eyebrow">FAST • RELIABLE • DOOR-TO-DOOR</div>
+      <h1>Move your shipment.<br><span>Move your business.</span></h1>
+      <p>Professional courier, cargo and logistics solutions for documents, parcels and commercial consignments across India and international destinations.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#quote">Get a Free Quote →</a>
+        <a class="btn btn-light" href="#tracking">Track Shipment</a>
+      </div>
+      <div class="trust-row">
+        <div><b>Domestic</b><span>Pan-India network</span></div>
+        <div><b>International</b><span>Global shipping support</span></div>
+        <div><b>Business</b><span>Bulk & recurring needs</span></div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="card-head"><span class="pulse"></span> Quick shipment enquiry</div>
+      <form class="mini-form" data-demo-form>
+        <label>Pickup city<input name="pickup" placeholder="Mumbai" required></label>
+        <label>Delivery city<input name="delivery" placeholder="Delhi" required></label>
+        <label>Shipment type
+          <select name="type">
+            <option>Domestic Courier</option><option>International Courier</option><option>Air Cargo</option><option>Surface Cargo</option><option>Business / Bulk</option>
+          </select>
+        </label>
+        <label>Approx. weight<input name="weight" type="number" min="0.1" step="0.1" placeholder="5 kg"></label>
+        <button class="btn btn-primary" type="submit">Request Estimate</button>
+        <small class="form-note">A Go Fast Air representative will contact you to confirm the final rate.</small>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong>Door-to-Door</strong><span>Pickup & delivery support</span></div>
+    <div><strong>Express Options</strong><span>Urgent shipment handling</span></div>
+    <div><strong>Air + Surface</strong><span>Mode options for your cargo</span></div>
+    <div><strong>Business Support</strong><span>Recurring & bulk shipping</span></div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-heading">
+      <div><span class="eyebrow">OUR SERVICES</span><h2>Logistics built around your shipment</h2></div>
+      <p>From a single document to recurring commercial cargo, choose the service that fits your speed, destination and shipment profile.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card"><span class="service-icon">01</span><h3>Domestic Courier</h3><p>Documents and parcels with reliable movement between major Indian cities and serviceable locations.</p><a href="#quote">Enquire →</a></article>
+      <article class="service-card"><span class="service-icon">02</span><h3>International Courier</h3><p>International document and parcel forwarding with destination, transit and customs coordination.</p><a href="#quote">Enquire →</a></article>
+      <article class="service-card"><span class="service-icon">03</span><h3>Express Delivery</h3><p>Time-sensitive shipments requiring priority handling and faster transit options.</p><a href="#quote">Enquire →</a></article>
+      <article class="service-card"><span class="service-icon">04</span><h3>Air Cargo</h3><p>Air freight solutions for commercial consignments where transit time matters.</p><a href="#quote">Enquire →</a></article>
+      <article class="service-card"><span class="service-icon">05</span><h3>Surface Cargo</h3><p>Cost-conscious movement for eligible shipments through surface and road networks.</p><a href="#quote">Enquire →</a></article>
+      <article class="service-card"><span class="service-icon">06</span><h3>Business / Bulk Shipping</h3><p>Structured support for recurring dispatches, bulk volumes and business logistics requirements.</p><a href="#quote">Talk to us →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="tracking" id="tracking">
+  <div class="container tracking-inner">
+    <div>
+      <span class="eyebrow">SHIPMENT VISIBILITY</span>
+      <h2>Track your shipment</h2>
+      <p>Enter your AWB / tracking number to check shipment status. Connect this form to your live courier or CRM API before production use.</p>
+    </div>
+    <form class="tracking-form" id="trackingForm">
+      <label for="awb">AWB / Tracking number</label>
+      <div class="tracking-input"><input id="awb" name="awb" placeholder="e.g. GFA123456789" required><button class="btn btn-primary" type="submit">Track</button></div>
+      <div id="trackingResult" class="tracking-result" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<section class="section alt" id="how-it-works">
+  <div class="container">
+    <div class="section-heading centered"><span class="eyebrow">HOW IT WORKS</span><h2>Simple from pickup to delivery</h2><p>Our enquiry-first workflow keeps your shipment moving while a logistics representative confirms the operational details.</p></div>
+    <div class="steps">
+      <div class="step"><span>01</span><h3>Share shipment details</h3><p>Tell us pickup, destination, weight, dimensions and service requirement.</p></div>
+      <div class="step"><span>02</span><h3>Get your quotation</h3><p>We review the route and shipment profile and confirm the applicable charges.</p></div>
+      <div class="step"><span>03</span><h3>Pickup & dispatch</h3><p>Once confirmed, your shipment is scheduled for pickup and onward movement.</p></div>
+      <div class="step"><span>04</span><h3>Track & deliver</h3><p>Use your AWB for updates and receive delivery at the destination.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container about-grid">
+    <div class="about-panel">
+      <span class="eyebrow">ABOUT GO FAST AIR</span>
+      <h2>Logistics support with a customer-first approach.</h2>
+      <p>Go Fast Air is presented as a national courier service and air logistics provider, supporting domestic and international courier, cargo forwarding and delivery requirements.</p>
+      <p>Our service model is designed around responsive communication, practical routing options and professional handling for individual and business shipments.</p>
+      <div class="about-points"><span>✓ Domestic & international support</span><span>✓ Air & surface movement</span><span>✓ Door-to-door service options</span><span>✓ Business & bulk enquiries</span></div>
+    </div>
+    <div class="contact-panel">
+      <span class="eyebrow">VISIT / CONTACT</span>
+      <h3>Go Fast Air</h3>
+      <p><strong>Office</strong><br>Shop No. 4, Omex Chembur, Opp. Ginger Hotel,<br>Teli Gali, Andheri (E), Mumbai-69</p>
+      <p><strong>Phone</strong><br><a href="tel:+919919666533">+91 99196 66533</a></p>
+      <p><strong>Email</strong><br><a href="mailto:cs@gofastair.com">cs@gofastair.com</a></p>
+      <div class="contact-actions"><a class="btn btn-primary" href="tel:+919919666533">Call Us</a><a class="btn btn-whatsapp" href="https://wa.me/919919666533?text=Hello%20Go%20Fast%20Air%2C%20I%20need%20a%20shipping%20quote." target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section quote-section" id="quote">
+  <div class="container quote-grid">
+    <div>
+      <span class="eyebrow">GET A QUOTE</span>
+      <h2>Tell us what you need to move.</h2>
+      <p>Share the basic shipment details and we'll route your enquiry to the right service team.</p>
+      <ul class="check-list"><li>Pickup & destination details</li><li>Weight and dimensions</li><li>Domestic / international requirement</li><li>Preferred speed or service</li></ul>
+    </div>
+    <form class="quote-form" id="quoteForm">
+      <div class="form-grid">
+        <label>Full name<input name="name" required></label>
+        <label>Phone<input name="phone" type="tel" required></label>
+        <label>Email<input name="email" type="email"></label>
+        <label>Service<select name="service"><option>Domestic Courier</option><option>International Courier</option><option>Express Delivery</option><option>Air Cargo</option><option>Surface Cargo</option><option>Business / Bulk Shipping</option></select></label>
+        <label>Pickup city<input name="pickup" required></label>
+        <label>Delivery city / country<input name="delivery" required></label>
+        <label>Weight (kg)<input name="weight" type="number" min="0.1" step="0.1"></label>
+        <label>Dimensions (L × W × H)<input name="dimensions" placeholder="cm"></label>
+        <label class="full">Message<textarea name="message" rows="4" placeholder="Shipment details, urgency, special handling, etc."></textarea></label>
+      </div>
+      <button class="btn btn-primary btn-wide" type="submit">Send Enquiry →</button>
+      <p class="form-note">Demo form: connect to your email, WhatsApp, CRM or backend endpoint before launch.</p>
+      <div id="quoteResult" class="quote-result" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="container narrow">
+    <div class="section-heading centered"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
+    <details><summary>What information is needed for a quote?</summary><p>Pickup and delivery locations, shipment type, approximate weight, dimensions where available, and any urgency or special handling requirement.</p></details>
+    <details><summary>Do you provide door-to-door service?</summary><p>Door-to-door service options are available depending on route, shipment type and serviceability. Confirm the applicable option when requesting a quote.</p></details>
+    <details><summary>Can I ship commercial or bulk consignments?</summary><p>Yes. Use the Business / Bulk Shipping enquiry and include expected frequency, average weight and destination details so the team can assess the requirement.</p></details>
+    <details><summary>Is the tracking form live?</summary><p>This starter includes the front-end tracking experience only. Connect it to your actual AWB/tracking provider or internal system before publishing it as a live tracking service.</p></details>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><img src="assets/gofastair-logo.jpg" alt="Go Fast Air"><p>National Courier Service & Air Logistics.</p></div>
+    <div><h4>Quick links</h4><a href="#services">Services</a><a href="#tracking">Track Shipment</a><a href="#quote">Get a Quote</a></div>
+    <div><h4>Contact</h4><a href="tel:+919919666533">+91 99196 66533</a><a href="mailto:cs@gofastair.com">cs@gofastair.com</a><a href="https://www.gofastair.com" target="_blank" rel="noopener">www.gofastair.com</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span id="year"></span> Go Fast Air. All rights reserved.</span><span>Privacy Policy · Terms & Conditions</span></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
